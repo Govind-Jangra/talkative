@@ -62,6 +62,8 @@ app.use("/api/users", usersRoute);
 app.use("/api/chats", chatsRoute);
 app.use("/api/messages", messagesRoute);
 
+
+
 const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "client/build")));
 app.get("*", (req, res) => {

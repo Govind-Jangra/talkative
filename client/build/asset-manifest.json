@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb900d58.css",
+    "main.js": "/static/js/main.70cb470a.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/talkative.png": "/static/media/talkative.ad38ed598869b23c6ce2.png",
+    "index.html": "/index.html",
+    "main.cb900d58.css.map": "/static/css/main.cb900d58.css.map",
+    "main.70cb470a.js.map": "/static/js/main.70cb470a.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb900d58.css",
+    "static/js/main.70cb470a.js"
+  ]
+}
