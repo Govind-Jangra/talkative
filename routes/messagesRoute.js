@@ -2,9 +2,7 @@ import { Router } from "express";
 import Chat from "../models/chatModel.js";
 import Message from "../models/messageModel.js";
 import authMiddleware from "../middlewares/authMiddleware.js";
-
 const router = Router();
-
 // new message
 router.post("/new-message", async (req, res) => {
   try {
@@ -18,7 +16,6 @@ router.post("/new-message", async (req, res) => {
         $inc: { unreadMessages: 1 },
       }
     );
-
     res.send({
       success: true,
       message: "Message sent successfully",
