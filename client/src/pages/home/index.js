@@ -5,7 +5,7 @@ import UserSearch from "./components/UserSearch";
 import UsersList from "./components/UsersList";
 import { io } from "socket.io-client";
 import talkative from "./talkative.png"
-const socket = io('https://talkative-jbe7.onrender.com/');
+const socket = io('');
 function Home() {
   const [searchKey, setSearchKey] = React.useState("");
   const { selectedChat, user } = useSelector((state) => state.userReducer);
